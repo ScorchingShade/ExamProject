@@ -86,7 +86,7 @@ public class homeChoice extends AppCompatActivity implements NavigationView.OnNa
             startActivity(new Intent(getApplicationContext(),LoginActivity.class));
 
         } else if (id == R.id.navigation_SignUp) {
-
+            startActivity(new Intent(getApplicationContext(), SignUp.class));
         } else if (id == R.id.navigation_apply) {
 
         } else if (id == R.id.nav_share) {
