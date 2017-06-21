@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_home" />
+
+
+        <item
+            android:id="@+id/navigation_Logout"
+            android:icon="@drawable/signupreal"
+            android:title="@string/logout" />
+
+        <item
+            android:id="@+id/navigation_Change_password"
+            android:icon="@drawable/password"
+            android:title="@string/change_password" />
+
+
+        <item
+            android:id="@+id/navigation_view_submitted"
+            android:icon="@drawable/view_submitted"
+            android:title="@string/view_form_submitted" />
+
+
+
+        <item android:title="Sharing">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send" />
+            </menu>
+        </item>
+
+
+
+    </group>
+
+
+
+
+</menu>

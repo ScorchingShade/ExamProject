@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/containerDrawer2"
+    tools:context="com.ankushinc.thereddragon.govtboardexamhp.Form">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtV1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/form_head" />
+
+        <RelativeLayout
+            android:id="@+id/Rel1"
+            android:layout_width="220px"
+            android:layout_height="220px"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtV1"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="220px"
+                android:layout_height="220px"
+
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/rollno"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/Rel1"
+            android:hint="Roll No."
+
+            />
+
+        <TextView
+            android:id="@+id/txtV2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/rollno"
+            android:text="(To be assigned by the office)"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txtV3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtV2"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/ApplicationHead"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtV4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtV3"
+            android:layout_margin="40dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/Part1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtV5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtV4"
+            android:text="1. Name Of Examination"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV5"
+            android:layout_marginTop="10dp"
+            android:entries="@array/Exam_name"
+            android:prompt="@string/Exam"></Spinner>
+
+        <TextView
+            android:id="@+id/txtV6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="10dp"
+            android:text="2. First name"
+
+            />
+
+        <EditText
+            android:id="@+id/Etext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV6"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtV7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext2"
+            android:layout_marginTop="10dp"
+            android:text="3. Middle name"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV7"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtV8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext3"
+            android:layout_marginTop="10dp"
+            android:text="4. Last name"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV8"
+            android:layout_marginTop="8dp"
+
+            />
+
+            <TextView
+                android:id="@+id/txtV9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Designation"
+                android:layout_below="@+id/Etext4"
+                />
+
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/Desig"
+                android:layout_below="@+id/txtV9"
+                android:prompt="@string/Designation">
+
+            </Spinner>
+
+
+        <TextView
+            android:id="@+id/txtV10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="10dp"
+            android:text="6.Father's Name"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV10"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtV11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext5"
+            android:layout_marginTop="10dp"
+            android:text="7.Mother's Name"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV11"
+            android:layout_marginTop="8dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtV12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext6"
+            android:layout_marginTop="10dp"
+            android:text="8.Date Of Birth"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV12"
+            android:layout_marginTop="8dp"
+            android:inputType="date"
+
+            />
+
+        <TextView
+            android:id="@+id/txtV13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9.Service/Cadre to which belongs"
+            android:layout_below="@+id/Etext7"
+            />
+
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/cadre"
+            android:layout_below="@+id/txtV13"
+            android:prompt="@string/cadreName">
+
+        </Spinner>
+
+
+
+        <TextView
+            android:id="@+id/txtV14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner3"
+            android:layout_marginTop="10dp"
+            android:text="10.Date Of Appointment to regular service"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV14"
+            android:layout_marginTop="8dp"
+            android:inputType="date"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtV15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext8"
+            android:layout_marginTop="10dp"
+            android:text="11.Address for correspondence"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV15"
+            android:layout_marginTop="8dp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtV16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext9"
+            android:layout_marginTop="10dp"
+            android:text="12.PIN Code"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV16"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            />
+
+
+        <TextView
+            android:id="@+id/txtV17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext10"
+            android:layout_marginTop="10dp"
+            android:text="13.Telephone Number (If Available)"
+
+
+            />
+
+        <EditText
+            android:id="@+id/Etext11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV17"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            />
+
+
+        <TextView
+            android:id="@+id/txtV18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext11"
+            android:layout_marginTop="10dp"
+            android:text="14.Papers in which applicant wishes to appear"
+
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/txtV19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV18"
+            android:layout_marginTop="10dp"
+            android:text="15.Have you ever been disqualified? If yes, when?"
+
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV19"
+            android:id="@+id/yesNo"
+            >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtV19"
+                    android:text="@string/radio_yes"
+                    android:checked="true"
+                    android:id="@+id/radioyes"
+                    />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_yes"
+                android:text="@string/radio_No"
+                android:id="@+id/radiono"
+
+                />
+
+</RadioGroup>
+
+        <TextView
+            android:id="@+id/txtV20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yesNo"
+            android:layout_marginTop="15dp"
+            android:text="I solemnly declare that the information given by me above is correct and true and nothing has been concealed therein. In the event of any of the above being found incorrect or false, I shall be liable for appropriate action under the CCS(Conduct) Rules, 1964."
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/txtV21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV20"
+            android:layout_marginTop="10dp"
+            android:text="16. Place"
+
+            />
+        <EditText
+            android:id="@+id/Etext12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV21"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtV22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Etext12"
+            android:layout_marginTop="10dp"
+            android:text="17.Date"
+
+            />
+        <EditText
+            android:id="@+id/Etext13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtV22"
+            android:layout_marginTop="8dp"
+
+            />
+        <RelativeLayout
+            android:id="@+id/Rel2"
+            android:layout_width="220px"
+            android:layout_height="220px"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Etext13"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtV23"
+                android:text="Upload signature here"
+                />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="220px"
+                android:layout_height="220px"
+                android:layout_below="@+id/txtV23"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Rel2"
+            android:layout_marginTop="20dp"
+            android:text="Submit form"
+            android:background="@drawable/button_states"
+            android:id="@+id/Button1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Button1"
+            android:layout_marginTop="20dp"
+            android:text="Submit form"
+            android:background="@drawable/button_states"
+            android:id="@+id/Button2"
+            />
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/navigation_form" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</LinearLayout><android.support.design.widget.NavigationView
+    android:id="@+id/navDrawer2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="?android:attr/windowBackground"
+    app:menu="@menu/drawer_nav_form"
+    app:headerLayout="@layout/navigation_header"/>
+</android.support.v4.widget.DrawerLayout>
