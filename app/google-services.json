@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "601543334088",
+    "firebase_url": "https://govtapp-57d61.firebaseio.com",
+    "project_id": "govtapp-57d61",
+    "storage_bucket": "govtapp-57d61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601543334088:android:faea255ac9e68703",
+        "android_client_info": {
+          "package_name": "com.ankushinc.thereddragon.govtboardexamhp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601543334088-1m0lomo0el4aijl1c9sjcb6eom1gskfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ankushinc.thereddragon.govtboardexamhp",
+            "certificate_hash": "c39b354210a5c8d4805b19f3e814e0ae06d9e43e"
+          }
+        },
+        {
+          "client_id": "601543334088-24lgm3s7bflkca7795qiihrs5l8b87il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALeFExEBsSgij6xT3Qqjmu-_DEw-UFv28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601543334088-24lgm3s7bflkca7795qiihrs5l8b87il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

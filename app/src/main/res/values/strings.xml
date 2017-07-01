@@ -77,6 +77,8 @@
     <string name="logout">Logout</string>
     <string name="change_password">Change Password</string>
     <string name="view_form_submitted">View Form Submitted</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back"><![CDATA[<<Back]]></string>
 
 
 </resources>
